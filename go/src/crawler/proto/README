@@ -1,0 +1,7 @@
+To install protobuff:
+  export GOPATH=$PROJECT_ROOT/go
+  go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+  cp $PROJECT_ROOT/go/bin/goprotoc-gen-go /usr/bin/ -f
+
+To compile:
+  protoc --go_out=. *.proto

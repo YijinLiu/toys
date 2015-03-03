@@ -1,0 +1,8 @@
+feed {
+        url: 'http://www.amazon.com/s/ref=nb_sb_noss/179-2388078-0402450?url=search-alias%3Daps&field-keywords=thigh+high+boots'
+        parser: 'amazon_list'
+}
+feed {
+        url: 'http://www.amazon.com/Pleaser-Womens-Seduce-3010-Thigh-Black/dp/B000AAW04Y/ref=sr_1_1?s=apparel&ie=UTF8&qid=1421246136&sr=1-1&keywords=thigh+high+boots&pebp=1421246157584&peasin=B000AAW04Y'
+        parser: 'amazon'
+}

@@ -1,0 +1,17 @@
+package proto;
+
+message CrawlActivity {
+	required int64 timestamp = 1;
+	required int32 status_code = 2;
+	// TODO: Add other info to compute changerate.
+}
+
+message Feed {
+	required string url = 1;
+	required string parser = 2;
+	repeated CrawlActivity crawl_activity = 3;
+}
+
+message FeedList {
+	repeated Feed feed = 1;
+}

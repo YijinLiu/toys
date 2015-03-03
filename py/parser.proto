@@ -1,0 +1,20 @@
+package proto;
+
+message Product {
+	required string name = 1;
+	required string url = 2;
+	required string image_url = 3;
+	// TODO: Add others.
+}
+
+message ProductList {
+	repeated Product product = 1;
+}
+
+message ParserResult {
+	// Only one of the following is used:
+	//   "product" if it's product page.
+	//   "product_list" if it's product list page.
+	optional Product product = 1;
+	optional ProductList product_list = 2;
+}

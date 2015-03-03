@@ -1,0 +1,3 @@
+cd $PROJECT/go
+go install demo
+./bin/demo src/demo/input.ascii

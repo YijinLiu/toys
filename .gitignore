@@ -1,0 +1,6 @@
+pkg/
+bin/
+github.com/
+code.google.com/
+golang.org/
+*.pb.go
